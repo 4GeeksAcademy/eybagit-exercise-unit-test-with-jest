@@ -33,11 +33,11 @@ const fromEuroToDollar = function(valueInEuro) {
 }
 
 
-// Declaramos una función con el nombre exacto "fromYenToPound"
+// Declaramos una función con el nombre exacto "formEuroToDollar"
 const fromYenToPound = function(valueInYen) {
-    // Convertimos el valor a libras esterlinas
+    // Convertimos el valor a dólares
     let valueInPound = (valueInYen * (oneEuroIs.GBP/oneEuroIs.JPY));
-    // Retornamos el valor en libras esterlinas
+    // Retornamos el valor en dólares
     return valueInPound;
 }
 
